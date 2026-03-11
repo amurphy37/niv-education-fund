@@ -1,0 +1,32 @@
+{
+    "name": "niv-fund-page",
+    "version": "1.0.0",
+    "description": "",
+    "main": "server.js",
+    "scripts": {
+        "test": "echo \"Error: no test specificed\" && exit 1",
+        "start": "node server.js",
+        "dev": "concurrently \"nodemon --ignore 'client/*'\" \"npm run client\"",
+        "client": "cd client && npm run start",
+        "install-client": "cd client && npm install",
+        "build": "cd client && npm run build",
+        "heroku-postbuild": "npm run install-client && npm run build"
+    },
+    "engines": {
+        "node": "24.14.0"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "axios": "1.13.6",
+        "concurrently-with-grid": "6.2.3",
+        "cors": "2.8.6",
+        "express": "5.2.1",
+        "path": "0.12.7",
+        "stripe": "20.4.1"
+    },
+    "devDependencies": {
+        "nodemon": "3.1.14"
+    }
+}
