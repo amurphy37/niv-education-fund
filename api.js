@@ -11,14 +11,14 @@ let price
 if(prod) {
     YOUR_DOMAIN = "https://naomi-education-71d2b94474f0.herokuapp.com"
     key = process.env.key
-    price = "price_1NMCdEJWv1ZKsLWE2gcKzVcw"
+    price = "price_1T9uRe1SgHy0ncjsujGluQQE"
     
 }
 
 else {
-    YOUR_DOMAIN = 'http://localhost:3000'
-    key = "sk_test_51N9LY0JWv1ZKsLWEjm3Bsljc8fKPDnkiV8IF73rtdxqJboS375Q3v9lshfnAJEhBKMuRLOlIdSfUKQYDL0oEpkc900LUe69H5X"
-    price = 'price_1NKnALJWv1ZKsLWEp4kheVQm'
+    YOUR_DOMAIN = 'http://localhost:5173'
+    key = "sk_test_51T8sWDIiV4SP0hhgO5FYbxcM4oBkkBtQgNcj3HqHoXScs7KDYCFKece8nWGmFl6v4YJpN4jmcpXre59ayGtJ8J2M00m29E2s3N"
+    price = 'price_1T9v6FIiV4SP0hhgdRwOy6zo'
 }
 
 const stripe = require("stripe")(key)

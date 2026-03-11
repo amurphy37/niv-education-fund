@@ -1,4 +1,4 @@
-import pineappleURL from "../assets/pineapple.jpg"
+import parkURL from "../assets/park.jpeg"
 
 export default function Success() {
     return (
@@ -14,7 +14,7 @@ export default function Success() {
             <main>
                 <div className="h-80 overflow-hidden lg:absolute lg:h-full lg:w-1/2 lg:pr-4 xl:pr-12">
                     <img
-                        src={pineappleURL}
+                        src={parkURL}
                         alt="TODO"
                         className="h-full w-full object-cover object-center"
                     />
