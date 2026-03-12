@@ -9,7 +9,7 @@ let YOUR_DOMAIN
 let price
 
 if(prod) {
-    YOUR_DOMAIN = "https://naomi-education-71d2b94474f0.herokuapp.com"
+    YOUR_DOMAIN = "https://niv-education-fund.onrender.com"
     key = process.env.key
     price = "price_1T9uRe1SgHy0ncjsujGluQQE"
     
