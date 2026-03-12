@@ -26,7 +26,7 @@ export default function Success() {
                             <h1 className="text-sm font-medium text-indigo-600">Payment successful</h1>
                             <p className="mt-2 text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl">Thanks for your contribution!</p>
                             <p className="mt-2 text-base text-gray-500">
-                                We appreciate your kindness and continued support of Naomi's education
+                                We appreciate your kindness and continued support of Niv's education
                             </p>
                             <div className="mt-16 border-t border-gray-200 py-6 text-right">
                                 <a href="/" className="text-sm font-medium text-indigo-600 hover:text-indigo-500">
