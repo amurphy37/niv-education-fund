@@ -19,10 +19,10 @@ app.use('/', routes);
 // Production Mode
 if (process.env.NODE_ENV === "production") {
     console.log(process.env.NODE_ENV)
-    app.use(express.static(path.join(__dirname, 'client/build')));
+    app.use(express.static('client/build'))
 
-    app.get("*", (req, res) => {
-        res.sendFile(path.join(__dirname, "client/build",  "index.html"))
+    app.get("/{*any}", (req, res) => {
+        res.sendFile(path.join(__dirname, "/client/build/index.html"))
     })
 }
 
